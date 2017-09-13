@@ -12,7 +12,7 @@ import java.util.Date;
  *
  */
 public class StudentGroup implements StudentArrayOperation {
-	
+
 	private Student[] students;
 	
 	/**
@@ -31,20 +31,18 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void setStudents(Student[] students) {
-		/* student.setId(createid("a",1));
-    		student list.add(students);// Add your implementation here
-	*/
+		// Add your implementation here
 	}
 
 	@Override
 	public Student getStudent(int index) {
-		//studentId// Add your implementation here
+		// Add your implementation here
 		return null;
 	}
 
 	@Override
 	public void setStudent(Student student, int index) {
-		//studentId= id;// Add your implementation here
+		// Add your implementation here
 	}
 
 	@Override
@@ -59,12 +57,12 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void add(Student student, int index) {
-		//studentgroup.remove(students);// Add your implementation here
+		// Add your implementation here
 	}
 
 	@Override
 	public void remove(int index) {
-		//studentgroup.remove(students);// Add your implementation here
+		// Add your implementation here
 	}
 
 	@Override
@@ -138,5 +136,4 @@ public class StudentGroup implements StudentArrayOperation {
 		// Add your implementation here
 		return null;
 	}
-}
 }
